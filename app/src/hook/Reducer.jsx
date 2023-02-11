@@ -8,7 +8,7 @@ function Reducer() {
 
     const[count,dispatch] = useReducer(Reducer , initalvalue)
 
-
+// use reducer hook
   return (
 
     <div>
