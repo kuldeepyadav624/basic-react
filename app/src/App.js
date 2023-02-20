@@ -1,21 +1,30 @@
 import React from 'react';
 import './App.css';
-// import State from './hook/State';
-// import State from './project/State';
- import Effect from './hook/Effect';
-// import Ref from './hook/Ref';
-// import Reducer from './hook/Reducer';
-
+import Header from './Header';
+// import Login from './Login'
+// import Input from './Input'
+// import Toggle from './Toggle';
+import Map from './Map';
+// import ConditionalRandering from './ConditionalRandering';
 
 function App() {
-
-
   return (
-    //<State/>
-     <Effect/>
-    // <Ref/>
-    //<Reducer/>
-  )
+   <div className='props'>
+    <Header/>
+    <Map/>
+    {/* <ConditionalRandering/> */}
+    {/* <Form/> */}
+    {/* <Input/> */}
+    {/* <Toggle/> */}
+    {/* <h1>props in react</h1>
+    <Login name={"kuldeep"} email = {"ykuldeep624@gmail.com"}other ={{address:'delhi',mobile:'000'}}/> */}
+    {/* <Login name={"yadav"} email = {"yadav624@gmail.com"}other ={{address:'jaipur',mobile:'111'}}/>
+    <Login name={"sk"} email = {"sk624@gmail.com"}other ={{address:'haryana',mobile:'222'}}/>
+    <Login name={"pk"} email = {"pk624@gmail.com"}other ={{address:'gurugram',mobile:'333'}}/>
+     */}
+
+   </div>
+  );
 }
 
 export default App;

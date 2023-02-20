@@ -1,11 +1,42 @@
-fieldset {
+*{
+  margin: 0;
+  padding: 0px;
+}
+.nav{
+  background-color: rgba(211, 111, 153, 0.411);
+  width: 100vw;
+  height: 8vh;
+  color:black;
+  display: inline-flex;
+font-weight: 600;
+}
+.ul-header{
+  display: flex;
+  padding: 10px;
+  margin-left: -8px;
+  margin: 2px;
+}
+.ul-header li{
+  margin-left: 10px;
+  list-style: none;
+}
+
+
+.App {
   text-align: center;
-  background-color: #d6d8dc;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.prop{
+  justify-content: center;
+  align-items: center;
+ 
+}
+.props{
+  color: rgba(136, 88, 136, 0.991);
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,14 +45,14 @@ fieldset {
   }
 }
 
-.fieldset{
+.App-header {
   background-color: #282c34;
-  min-height: 10vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 1vmin);
+  font-size: calc(10px + 2vmin);
   color: white;
 }
 
